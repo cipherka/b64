@@ -21,8 +21,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"></script>
     <script>
       function ready() {
-        document.getElementsById('image').src = `data:image/png;base64,${window.location.href.split('#')[1]}`;
-        document.getElementsById('link').href = `data:image/png;base64,${window.location.href.split('#')[1]}`;
+        document.getElementById('image').src = `data:image/png;base64,${window.location.href.split('#')[1]}`;
+        document.getElementById('link').href = `data:image/png;base64,${window.location.href.split('#')[1]}`;
       }
 
       document.addEventListener("DOMContentLoaded", ready);
